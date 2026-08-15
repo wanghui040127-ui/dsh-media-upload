@@ -2,7 +2,7 @@
 
 一个让 DeepSeek Harness 支持**上传图片和 PDF 文件**的补丁包。
 
-DeepSeek Harness 默认只允许上传 png/jpeg/webp/gif 图片，本补丁扩展了上传类型校验，支持 PDF 及其他图片格式（bmp/tiff/svg 等），并让模型能识别 PDF 内容。
+DeepSeek Harness 默认不支持上传 PDF 和图片文件，本补丁扩展了上传类型校验，支持 PDF 及图片格式（png/jpeg/webp/gif/bmp/tiff/svg 等），并让模型能识别 PDF 内容。
 
 ## 原理
 
